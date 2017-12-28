@@ -1,0 +1,91 @@
+body header #navbarNav a {
+  margin: 5px 0px 0px 15px;
+  padding: 10px 25px; }
+body header #navbarNav a:hover {
+  background-color: #09709F; }
+body header .navbar-toggler {
+  background: #fff; }
+body header .dropbtn {
+  color: #fff; }
+body .acerca_de {
+  background: url("../img/acerca_de.png");
+  background-size: cover;
+  height: 550px; }
+  body .acerca_de .textos {
+    height: 550px; }
+body #iglesia {
+  font-family: "Abel", sans-serif;
+  height: 270px;
+  display: flex;
+  align-items: center; }
+  body #iglesia h3 {
+    font-size: 2em;
+    text-align: center; }
+  body #iglesia p {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 1em; }
+body #pastores {
+  background: linear-gradient(90deg, #212121, #0D47A1);
+  height: 470px; }
+  body #pastores .info_de_pastores {
+    position: relative;
+    text-align: center; }
+    body #pastores .info_de_pastores p {
+      color: #fff;
+      position: relative; }
+body footer {
+  height: 150px;
+  background: black; }
+
+@media screen and (min-width: 480px) {
+  #pastores {
+    height: 400px; }
+    #pastores .foto_apostol img {
+      width: 350px;
+      height: 230px; }
+
+  footer {
+    background: orange; } }
+@media screen and (min-width: 767px) {
+  header {
+    position: relative; }
+    header .navbar img {
+      position: relative;
+      left: 70px; }
+
+  footer {
+    height: 200px; }
+
+  #iglesia {
+    height: 300px; }
+    #iglesia .slogan {
+      display: flex;
+      align-items: center;
+      height: 300px; }
+      #iglesia .slogan h3 {
+        font-size: 3em;
+        margin-top: 0; }
+    #iglesia .texto {
+      display: flex;
+      align-items: center; }
+      #iglesia .texto p {
+        font-size: 16px;
+        margin-top: 0; }
+
+  #pastores .foto_apostol img {
+    width: 250px;
+    height: 250px; } }
+@media screen and (min-width: 1030px) {
+  #iglesia {
+    padding: 0 30px; }
+    #iglesia h3 {
+      font-size: 5em;
+      margin-top: 0; }
+    #iglesia .texto p {
+      font-size: 1.2em; }
+
+  footer {
+    background: red; } }
+
+/*# sourceMappingURL=contenido.css.map */
