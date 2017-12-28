@@ -37,6 +37,19 @@ body #pastores {
 body footer {
   height: 150px;
   background: black; }
+  body footer .logo {
+    height: 115px; }
+    body footer .logo img {
+      width: 96px;
+      height: 100px; }
+  body footer .no-copy {
+    height: 35px; }
+    body footer .no-copy h4 {
+      font-size: 14px; }
+  body footer .info_iglesia {
+    font-size: 13px; }
+    body footer .info_iglesia a {
+      text-decoration: none; }
 
 @media screen and (min-width: 480px) {
   #pastores {
