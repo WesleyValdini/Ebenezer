@@ -13,24 +13,26 @@ body
 		.dropbtn
 			color: #fff 
 			// ARTICULO ACERCA DE   
-	.acerca_de
+	.lema
 		background: url("../img/acerca_de.png")
 		background-size: cover
 		height: 550px
 		.textos
+			font-family: 'Petit Formal Script', cursive
 			height: 550px
 	#iglesia
-		font-family: 'Abel', sans-serif
 		height: 270px
 		display: flex
 		align-items: center
 		h3
-			font-size: 2em
+			font-size: 1.5em
+			font-family: 'Oswald', sans-serif
 			text-align: center
 		p
+			font-family: 'Petit Formal Script', cursive
 			padding-top: 25px 
 			text-align: center
-			font-size: 1em
+			// font-size: 1em
 	#pastores
 		background: linear-gradient(90deg, #212121, #0D47A1)
 		height: 470px
@@ -45,30 +47,33 @@ body
 	footer
 		height: 150px
 		background: black
-		.logo
-			// background: red
-			height: 115px
-			img
-				width: 96px 
-				height: 100px 
-		.no-copy
-			// background: green
-			height: 35px
-			h4
-				font-size: 14px
+		position: relative 
 		.info_iglesia
 			// background: yellow
+			position: relative
+			top: 29px
 			font-size: 13px
-			a 
-				text-decoration: none
+			text-align: center
+
+		.NombreyLocalizacion
+			position: relative
+			top: 34px
+			height: 26px
+			h4
+				font-size: 14px
+			p
+				font-size: 14px
+		.dreserv
+			position: relative
+			top: 30px
+			// background: red
+			p 
+				font-size: 11px
+		
 		
 				// DISPOSITIVO MEDIO
 @media screen and (min-width: 480px)
-	#iglesia
-		h3
-			// margin-top: 10px
-		p
-			// margin-top: 20px 
+
 	#pastores
 		height: 400px
 
@@ -84,6 +89,7 @@ body
 			
 	footer
 		background: orange
+
 
 
 
@@ -109,9 +115,9 @@ body
 		.texto 
 			display: flex
 			align-items: center
-			p 
-				font-size: 16px
-				margin-top: 0
+			p
+				font-size: 1em 
+
 	#pastores
 		.foto_apostol
 			// background: orange

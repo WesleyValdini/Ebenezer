@@ -7,24 +7,25 @@ body header .navbar-toggler {
   background: #fff; }
 body header .dropbtn {
   color: #fff; }
-body .acerca_de {
+body .lema {
   background: url("../img/acerca_de.png");
   background-size: cover;
   height: 550px; }
-  body .acerca_de .textos {
+  body .lema .textos {
+    font-family: "Petit Formal Script", cursive;
     height: 550px; }
 body #iglesia {
-  font-family: "Abel", sans-serif;
   height: 270px;
   display: flex;
   align-items: center; }
   body #iglesia h3 {
-    font-size: 2em;
+    font-size: 1.5em;
+    font-family: "Oswald", sans-serif;
     text-align: center; }
   body #iglesia p {
+    font-family: "Petit Formal Script", cursive;
     padding-top: 25px;
-    text-align: center;
-    font-size: 1em; }
+    text-align: center; }
 body #pastores {
   background: linear-gradient(90deg, #212121, #0D47A1);
   height: 470px; }
@@ -36,20 +37,26 @@ body #pastores {
       position: relative; }
 body footer {
   height: 150px;
-  background: black; }
-  body footer .logo {
-    height: 115px; }
-    body footer .logo img {
-      width: 96px;
-      height: 100px; }
-  body footer .no-copy {
-    height: 35px; }
-    body footer .no-copy h4 {
-      font-size: 14px; }
+  background: black;
+  position: relative; }
   body footer .info_iglesia {
-    font-size: 13px; }
-    body footer .info_iglesia a {
-      text-decoration: none; }
+    position: relative;
+    top: 29px;
+    font-size: 13px;
+    text-align: center; }
+  body footer .NombreyLocalizacion {
+    position: relative;
+    top: 34px;
+    height: 26px; }
+    body footer .NombreyLocalizacion h4 {
+      font-size: 14px; }
+    body footer .NombreyLocalizacion p {
+      font-size: 14px; }
+  body footer .dreserv {
+    position: relative;
+    top: 30px; }
+    body footer .dreserv p {
+      font-size: 11px; }
 
 @media screen and (min-width: 480px) {
   #pastores {
@@ -83,8 +90,7 @@ body footer {
       display: flex;
       align-items: center; }
       #iglesia .texto p {
-        font-size: 16px;
-        margin-top: 0; }
+        font-size: 1em; }
 
   #pastores .foto_apostol img {
     width: 250px;
