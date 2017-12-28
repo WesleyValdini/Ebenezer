@@ -1,6 +1,7 @@
 body header #navbarNav a {
   margin: 5px 0px 0px 15px;
-  padding: 10px 25px; }
+  padding: 10px 25px;
+  font-family: "Poiret One", cursive; }
 body header #navbarNav a:hover {
   background-color: #09709F; }
 body header .navbar-toggler {
@@ -12,7 +13,7 @@ body .lema {
   background-size: cover;
   height: 550px; }
   body .lema .textos {
-    font-family: "Petit Formal Script", cursive;
+    font-family: "Poiret One", cursive;
     height: 550px; }
 body #iglesia {
   height: 270px;
