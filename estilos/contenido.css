@@ -8,12 +8,15 @@ body header .navbar-toggler {
 body header .dropbtn {
   color: #fff; }
 body .lema {
-  background: url("../img/acerca_de.png");
+  background: url("../img/bible.jpg");
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   height: 550px; }
   body .lema .textos {
     font-family: "Italianno", cursive;
-    height: 550px; }
+    height: 550px;
+    color: #000; }
 body #iglesia {
   height: 270px;
   display: flex;
@@ -23,7 +26,7 @@ body #iglesia {
     font-family: "Oswald", sans-serif;
     text-align: center; }
   body #iglesia p {
-    font-family: "Petit Formal Script", cursive;
+    font-family: "Italianno", cursive;
     padding-top: 25px;
     text-align: center; }
 body #pastores {
