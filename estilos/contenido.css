@@ -17,6 +17,8 @@ body .lema {
     font-family: "Italianno", cursive;
     height: 550px;
     color: #000; }
+    body .lema .textos h1, body .lema .textos h2 {
+      font-size: 4em; }
 body #iglesia {
   height: 270px;
   display: flex;
@@ -27,6 +29,7 @@ body #iglesia {
     text-align: center; }
   body #iglesia p {
     font-family: "Italianno", cursive;
+    font-size: 25px;
     padding-top: 25px;
     text-align: center; }
 body #pastores {
@@ -93,7 +96,7 @@ body footer {
       display: flex;
       align-items: center; }
       #iglesia .texto p {
-        font-size: 1em; }
+        font-size: 1.7em; }
 
   #pastores .foto_apostol img {
     width: 250px;
@@ -105,7 +108,7 @@ body footer {
       font-size: 5em;
       margin-top: 0; }
     #iglesia .texto p {
-      font-size: 1.2em; }
+      font-size: 1.8em; }
 
   footer {
     background: red; } }
