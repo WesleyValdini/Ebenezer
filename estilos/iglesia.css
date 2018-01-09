@@ -1,0 +1,112 @@
+body{
+	margin-top: 100px;
+}
+
+@media screen and (min-width: 300px){
+header .navbar a img{
+	position: relative;
+	left: -60px;
+}
+header a{
+	margin-left: 45px;
+	padding: 0px 10px;
+}
+header a:hover{
+	background: #09709F;
+}
+header .navbar-toggler{
+	background: #fff
+}
+header .dropbtn {
+	/*color: #fff*/
+} 
+.min_ebe{
+	/*margin-top: 56px;*/
+	/*background: orange;*/
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.min_ebe h1{
+	color: white;
+	font-size: 1.3em;
+	color: black;
+}
+.horarios{
+	background: #DAD8D8;
+	height: 370px;
+}
+.horarios .titulo_horario{
+	/*background: #446633;*/
+	margin-top: 20px;
+}
+.horarios .titulo_horario h5{
+	font-size: 26px;
+}
+.horarios_texto{
+	/*background: blue;*/
+}
+.ubicacion{
+	/*top: 20px;*/
+	height: 400px;
+	/*background: orange;*/
+}
+.ubicacion h5{
+	margin-top: 20px;
+	font-size: 2em;
+}
+.eventos{
+	height: 400px;
+	background: #0C0D27;
+}
+.eventos img{
+	height: 300px;
+	/*width: 70%*/
+}
+footer{
+	height: 170px;
+	background: black;
+	position: relative
+} 
+footer .info_iglesia{
+	// background: yellow
+	position: relative;
+	top: 29px;
+	font-size: 13px;
+	text-align: center;
+}
+footer	.NombreyLocalizacion{
+	position: relative;
+	top: 34px;
+	height: 26px;
+} 
+footer .NombreyLocalizacion h4{
+	font-size: 12px;
+}
+footer .dreserv{
+	position: relative;
+	top: 30px;
+	font-size: 11px;
+}
+}
+@media screen and (min-width: 480px){
+	body{
+		/*background: red;*/
+	}
+}
+
+
+
+@media screen and (min-width: 767px){
+	body{
+		/*background: green;*/
+	}
+}
+
+
+@media screen and (min-width: 1030px){
+	body{
+		/*background: yellow;*/
+	}
+}
