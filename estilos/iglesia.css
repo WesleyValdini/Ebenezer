@@ -42,7 +42,8 @@ header .dropbtn {
 	margin-top: 20px;
 }
 .horarios .titulo_horario h5{
-	font-size: 26px;
+	font-size: 30px;
+	font-weight: bold;
 }
 .horarios_texto{
 	/*background: blue;*/
@@ -54,18 +55,23 @@ header .dropbtn {
 }
 .ubicacion h5{
 	margin-top: 20px;
-	font-size: 2em;
+	font-size: 1.9em;
+	padding: 7px 0px;
+	background: linear-gradient(258.25deg,#00cbff 12%,#7300ff 83%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .eventos{
 	height: 400px;
-	background: #0C0D27;
+	background: linear-gradient(258.25deg,#00cbff 12%,#7300ff 83%);
 }
 .eventos img{
 	height: 300px;
 	/*width: 70%*/
 }
 footer{
-	height: 170px;
+	height: 180px;
 	background: black;
 	position: relative
 } 
