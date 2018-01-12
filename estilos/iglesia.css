@@ -6,6 +6,8 @@ body{
 header .navbar a img{
 	position: relative;
 	left: -60px;
+/*	width: 50px;
+	height: 50px;*/
 }
 header a{
 	margin-left: 45px;
@@ -70,6 +72,21 @@ header .dropbtn {
 	height: 300px;
 	/*width: 70%*/
 }
+.redes_soc{
+	height: 200px;
+	background: #f1f1f1;
+}
+.redes_soc .icon_redes{
+	/*background: orange;*/
+}
+.trans{
+	height: 400px;
+	/*background: red;*/
+}
+.trans .texto h5{
+	margin-top: 10px;
+	font-size: 18px;
+}
 footer{
 	height: 180px;
 	background: black;
@@ -98,7 +115,14 @@ footer .dreserv{
 }
 @media screen and (min-width: 480px){
 	body{
-		/*background: red;*/
+		/*background: blue;*/
+	}
+	.trans{
+		height: 500px;
+	}
+	.trans .image img{
+		width: 450px;
+		height: 450px;
 	}
 }
 
@@ -107,6 +131,9 @@ footer .dreserv{
 @media screen and (min-width: 767px){
 	body{
 		/*background: green;*/
+	}
+	.trans .image img{
+		width: 700px;
 	}
 }
 
